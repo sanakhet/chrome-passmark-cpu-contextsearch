@@ -1,0 +1,18 @@
+{
+"manifest_version": 3,
+    "background" : { "service_workers": ["background.js"] },
+    "description": "Passmark CPU Score Context Menu Search",
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png",
+        "512": "icon512.png"
+    },
+   "minimum_chrome_version": "6",
+   "name": "Passmark CPU Search",
+   "permissions": [ "contextMenus", "tabs" ],
+   "host_permissions": [
+     "http://*/*", "https://*/*"
+   ],
+   "version": "1.0"
+}
